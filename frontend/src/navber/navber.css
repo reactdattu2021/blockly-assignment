@@ -1,0 +1,65 @@
+.navbar-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+body {
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.navbar-title:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+    color: aquamarine;
+  text-decoration: underline;
+}
+.toggle{
+color: yellow;
+font-size: 30px;
+margin: 10px;
+}
+.logo{
+  font-size: 50px;
+  margin: 10px;
+  background-color: beige;
+}
+.div1{
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+
+}
+.div2{
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+
+}

@@ -1,0 +1,129 @@
+.custom-box {
+  width: 197px;
+  height: 72px;
+  position: absolute;
+  top: 300px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  left: 269px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: linear-gradient(to right, #6DE7E0, #B2B8BA); /* Optional: add background to make it visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-box {
+  width: 338px;
+  height: 83px;
+  position: absolute;
+  top: 382px;
+  left: 269px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title-box span {
+  margin-right: 8px;
+  color: #ff9900; /* Optional: highlight the "I'm" */
+}
+.description-box {
+  width: 624px;
+  height: 77px;
+  position: absolute;
+  top: 470px;
+  left: 269px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #333; /* You can change this to white or any other color as needed */
+}
+.button-container {
+  width: 375px;
+  height: 60px;
+  position: absolute;
+  top: 649px;
+  left: 269px;
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8; /* optional */
+}
+
+.button-container button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+.symbols-list {
+  width: 36px;
+  height: 321px;
+  position: absolute;
+  top: 649px;
+  left: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2; /* optional: light background */
+  border-radius: 8px;         /* optional: rounded corners */
+}
+
+.symbols-list li {
+  font-size: 0.9rem;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.symbols-list li:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+.image-wrapper {
+  width: 600.45px;
+  height: 600.42px;
+  position: absolute;
+  top: 192px;
+  left: 900px;
+  overflow: hidden;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 800px;
+  /* background-color: yellow; Optional fallback color */
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hai{
+  color: yellow;
+}
+
+
+
