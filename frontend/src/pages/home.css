@@ -11,7 +11,7 @@
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  background: linear-gradient(to right, #6DE7E0, #B2B8BA); /* Optional: add background to make it visible */
+  background: linear-gradient(to right, #6DE7E0, #B2B8BA); 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@
 
 .title-box span {
   margin-right: 8px;
-  color: #ff9900; /* Optional: highlight the "I'm" */
+  color: #ff9900; 
 }
 .description-box {
   width: 624px;
@@ -42,7 +42,7 @@
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 500;
-  color: #333; /* You can change this to white or any other color as needed */
+  color: #333; 
 }
 .button-container {
   width: 375px;
@@ -55,7 +55,7 @@
   gap: 16px;
   align-items: center;
   justify-content: center;
-  background-color: #f8f8f8; /* optional */
+  background-color: #f8f8f8;
 }
 
 .button-container button {
@@ -86,8 +86,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #f2f2f2; /* optional: light background */
-  border-radius: 8px;         /* optional: rounded corners */
+  background-color: #f2f2f2; 
+  border-radius: 8px;         
 }
 
 .symbols-list li {
@@ -113,7 +113,7 @@
   border-top-right-radius: 300px;
   border-bottom-right-radius: 300px;
   border-bottom-left-radius: 800px;
-  /* background-color: yellow; Optional fallback color */
+  
 }
 
 .image-wrapper img {
@@ -124,6 +124,174 @@
 .hai{
   color: yellow;
 }
+/* General Reset */
+
+/* ========== Responsive Styles ========== */
+
+/* Large desktops (≥1200px) */
+@media screen and (min-width: 1200px) {
+  .custom-box {
+    width: 197px;
+    height: 72px;
+    font-size: 25px;
+    top: 150px;
+    left: 150px;
+  }
+
+  .title-box {
+    width: 338px;
+    height: 83px;
+    font-size: 2rem;
+    top: 250px;
+    left: 100px;
+  }
+
+  .description-box {
+    width: 624px;
+    height: 77px;
+    font-size: 1.2rem;
+    top: 350px;
+    left: 150px;
+  }
+
+  .button-container {
+    width: 375px;
+    height: 60px;
+    top: 600px;
+    left: 269px;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .image-wrapper {
+    width: 600px;
+    height: 600px;
+    top: 185px;
+    left: 700px;
+  }
+
+  .symbols-list {
+    width: 36px;
+    height: 321px;
+    top: 500clspx;
+    left: 112px;
+    flex-direction: column;
+  }
+}
+
+/* Tablets and small desktops (769px–1199px) */
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .custom-box {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    top: 150px;
+    left: 10%;
+  }
+
+  .title-box {
+    width: 300px;
+    font-size: 1.2rem;
+    top: 230px;
+    left: 5%;
+  }
+
+  .description-box {
+    width: 50%;
+    font-size: 1.rem;
+    top: 320px;
+    left: 10%;
+  }
+
+  .button-container {
+    width: 300px;
+    top: 460px;
+    left: 20%;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .image-wrapper {
+    width: 450px;
+    height: 450px;
+    top: 170px;
+    left: 50%;
+  }
+
+  .symbols-list {
+    width: 36px;
+    height: 280px;
+    top: 430px;
+    left: 3%;
+  }
+}
+
+/* Mobile devices (≤768px) */
+@media screen and (max-width: 768px) {
+  .custom-box {
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+    top: 100px;
+    left: 20%;
+  }
+
+  .title-box {
+    width: 80%;
+    font-size: 1.4rem;
+    top: 130px;
+    left: 10%;
+    text-align: center;
+  }
+
+  .description-box {
+    width: 90%;
+    font-size: 1rem;
+    top: 200px;
+    left: 5%;
+    text-align: center;
+  }
+
+  .button-container {
+    width: 40%;
+    flex-direction: column;
+    
+    top: 620px;
+    left: 45%;
+    gap: 10px;
+  }
+
+  .button-container button {
+    width: 100%;
+  }
+
+  .symbols-list {
+    top: 1000px;
+    left: 5%;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    /* margin: 20px auto; */
+  }
+
+  .symbols-list li {
+    
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .image-wrapper {
+    width: 90%;
+    height: auto;
+    top: 260px;
+    left: 10%;
+    
+    margin: 20px auto;
+  }
+}
+
+
 
 
 

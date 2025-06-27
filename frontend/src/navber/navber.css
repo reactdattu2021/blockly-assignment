@@ -1,4 +1,4 @@
-.navbar-container {
+/* .navbar-container {
   background-color: black;
   color: white;
   display: flex;
@@ -7,7 +7,7 @@
   padding: 1rem;
 }
 body {
-  overflow-x: hidden; /* Hides horizontal scrollbar */
+  overflow-x: hidden; 
 }
 
 .navbar-title {
@@ -62,4 +62,57 @@ margin: 10px;
   justify-content: space-around;
   padding: 1rem;
 
+} */
+ body {
+  overflow-x: hidden;
 }
+
+/* Brand logo */
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: beige;
+  border-radius: 50%;
+}
+
+/* Custom title styling */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+/* Nav links */
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: aquamarine !important;
+  text-decoration: underline;
+}
+
+/* Theme toggle icon */
+.toggle {
+  color: yellow;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/* Responsive spacing */
+@media (max-width: 991px) {
+  .toggle {
+    margin-top: 10px;
+  }
+}
+
