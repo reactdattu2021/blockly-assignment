@@ -15,51 +15,64 @@ import img1 from "../assets/Image.svg";
 
 const Home = () => {
   const symbals = [
-    { name: <FaFacebook /> },
-    { name: <FaCameraRetro /> },
-    { name: <FaTwitter /> },
-    { name: <FaGithub /> },
-    { name: <FaLinkedin /> },
-    { name: <FaTelegramPlane /> },
-    { name: <IoLogoSnapchat /> },
-  ];
-  return (
-    <div className="home-container">
-      <div>
-        <h1 className="custom-box">
-          Hello!
-          <span className="hai">
-            
-            <FaHandsClapping />
-          </span>
-        </h1>
+      { name: <FaFacebook /> },
+      { name: <FaCameraRetro /> },
+      { name: <FaTwitter /> },
+      { name: <FaGithub /> },
+      { name: <FaLinkedin /> },
+      { name: <FaTelegramPlane /> },
+      { name: <IoLogoSnapchat /> },
+    ];
+    return (
+      <div className="main-container">
+        <div className="hellow1"></div>
+        <div className="hellow2">
+          <div className="hayhand">
+            <h1 className="hay">
+              Hello!
+              <span className="hand">
+                <FaHandsClapping />
+              </span>
+            </h1>
+          </div>
+          <div className="name">
+            <h1>
+              <span className='spancs'>I'm</span> Dattu
+            </h1>
+          </div>
+          <div className="description">
+            <h2 className="description1">
+              UI/UX Designer, Front-End Developer & Thinker.<br></br> Based in
+              India.
+            </h2>
+          </div>
+        </div>
+        <div className="hellow"></div>
+        <div className="hellow4">
+          <div>
+            <img src={img1} alt="Image" className="photo"></img>
+          </div>
+        </div>
+        <div className="hellow5">
+          <div>
+            <ul className="list-items">
+              {symbals.map((each, i) => (
+                <li className="eachsymbal" key={i}>{each.name}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="hellow">
+          <div className="button-container">
+            <button className="button1"> Download CV</button>
+            <button className="button2"> Get In Touch!</button>
+          </div>
+        </div>
+       <div className="hellow"></div>
+       <div className="hellow0">
+          <h4 className="gmail">dattukumar995@gmail.com</h4>
+       </div>
       </div>
-      <div className="title-box">
-        <h1>
-          <span>I'm</span> Dattu
-        </h1>
-      </div>
-      <div className="description-box">
-        <h2>
-          UI/UX Designer, Front-End Developer & Thinker.<br></br> Based in
-          India.
-        </h2>
-      </div>
-      <div className="button-container">
-        <button> Download CV</button>
-        <button> Get In Touch!</button>
-      </div>
-      <div>
-        <ul className="symbols-list">
-          {symbals.map((each, i) => (
-            <li key={i}>{each.name}</li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <img src={img1} alt="Image" className="image-wrapper"></img>
-      </div>
-    </div>
-  );
+    );
 };
 export default Home;

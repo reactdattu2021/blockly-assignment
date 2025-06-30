@@ -1,5 +1,11 @@
+import "./resume.css";
+
+
 const Resume = () => {
-    return <div>resume Page</div>;
+  
+  return (
+    <div>resume</div>
+  );
 };
 
 export default Resume;
