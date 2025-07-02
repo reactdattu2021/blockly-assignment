@@ -1,5 +1,6 @@
 import Navbar from "../navber/navber";
 import React from "react";
+import { useState } from "react";
 import "./home.css";
 import {
   FaFacebook,
@@ -14,6 +15,7 @@ import { FaHandsClapping } from "react-icons/fa6";
 import img1 from "../assets/Image.svg";
 
 const Home = () => {
+  const[state, setState] = useState(false);
   const symbals = [
       { name: <FaFacebook /> },
       { name: <FaCameraRetro /> },

@@ -102,12 +102,7 @@ margin: 10px;
 }
 
 /* Theme toggle icon */
-.toggle {
-  color: yellow;
-  font-size: 24px;
-  cursor: pointer;
-  margin-left: 15px;
-}
+
 
 /* Responsive spacing */
 @media (max-width: 991px) {

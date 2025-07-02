@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 27% 3% 50% 20%;
   grid-template-rows: auto auto;
-  height: 100vh;
+  /* height: 100vh; */
   /* border: solid 2px black; */
 }
 /* .dve{
@@ -94,20 +94,22 @@
     justify-content: center;
     align-items: start;
     list-style-type: none;
+
   }
   .list-each{
-    /* margin: 10px; */
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     border-radius: 50%;
     border: 2px solid black;
-    background-color: #f0f0f0;
+    color:black;
+    
     transition: background-color 0.3s ease;
   }
   .list-each:hover{
     background-color: #0056b3;
     color: white;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width:576px) {
     .para{
      
       font-size: x-small;
@@ -140,6 +142,12 @@
     justify-content: start;
     align-items: start;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 20px;
   }
-  }
+  .second-last-image{
+  display: none;
+}
+.second-con-image{
+  display: none ;
+}
+}
